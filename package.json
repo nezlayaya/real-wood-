@@ -11,11 +11,10 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
-    "jquery": "^3.2.1",
-    "sass": "^0.5.0"
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "sass": "^0.5.0"
   }
 }
