@@ -6,8 +6,6 @@ gulp.task('delete', function(cb) {
     del('style.css', cb);
 });
 
-
-
 gulp.task('sass', function() {
 
     gulp.src('style.scss')

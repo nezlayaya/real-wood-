@@ -1,3 +1,6 @@
+* {
+  text-decoration: none; }
+
 .container-fluid {
   max-width: 1400px;
   margin: 0 auto; }
@@ -14,6 +17,9 @@ header .container-fluid {
     display: flex;
     align-items: center;
     margin: 0; }
+
+.proposition {
+  padding: 55px 0; }
 
 nav {
   background-color: #e6e6e6; }
@@ -77,11 +83,14 @@ nav ul li a {
     color: #000; }
 
 nav div {
-  margin: 0 0 0 35%;
   display: flex;
   align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
+.communications button.btn.btn-info.btn-lg {
+  background-color: #fff;
+  border: none; }
+
 .communications a:first-child {
   padding: 0 15px 0 0; }
 
@@ -101,8 +110,7 @@ section .container-fluid {
 .proposition .container-fluid .row {
   display: flex;
   justify-content: space-between;
-  padding: 22px 0 0 0;
-  flex-wrap: wrap; }
+  padding: 22px 0 0 0; }
 
 button {
   position: absolute;
@@ -148,7 +156,8 @@ button {
   justify-content: space-between;
   margin: 30px 0 0 0; }
   .grid-item_price span:first-child {
-    font-size: 20px; }
+    font-size: 20px;
+    display: block; }
   .grid-item_price span:last-child {
     color: #999999;
     text-decoration: line-through; }
@@ -174,7 +183,11 @@ nav {
   margin: 0 0 38px 0; }
   nav .container-fluid {
     display: flex;
-    justify-content: flex-start; }
+    justify-content: space-between; }
+    nav .container-fluid:before {
+      display: none; }
+    nav .container-fluid:after {
+      display: none; }
 
 .main-padding {
   padding: 0 6%; }
@@ -197,7 +210,7 @@ nav ul {
 
 .grid-item {
   border: 1px solid #ccc;
-  width: 23%;
+  margin: 0 10px;
   padding: 0; }
   .grid-item:hover {
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2); }
@@ -239,6 +252,104 @@ nav ul li a {
     color: #000; }
 
 .about {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  padding: 55px 0; }
+  .about h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 17px; }
+  .about h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    height: 40px; }
+  .about button {
+    background-color: #f5f5f5; }
+    .about button:hover {
+      background-color: #90bc3b; }
+  .about .row {
+    padding: 55px 0 0 0; }
   .about .about_item {
     text-align: center; }
+
+.lider-of-sales {
+  padding: 52px 0; }
+
+.lider-of-sales_item {
+  text-align: center;
+  margin: 20px 0; }
+  .lider-of-sales_item a.more {
+    border-radius: 4px;
+    background-color: #90bc3b;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 25px;
+    border: 1px solid #90bc3b; }
+    .lider-of-sales_item a.more:hover {
+      background-color: #fff;
+      color: #90bc3b;
+      text-decoration: none; }
+  .lider-of-sales_item span {
+    font-size: 23px;
+    font-weight: 400;
+    display: block;
+    padding: 28px 0; }
+  .lider-of-sales_item h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    line-height: 25px; }
+  .lider-of-sales_item p {
+    font-size: 15px;
+    line-height: 22px; }
+
+.how-much {
+  background: url("img/price.png"); }
+  .how-much div.wrap {
+    background-color: rgba(0, 0, 0, 0.51);
+    color: #fff;
+    padding: 55px 0 80px 0; }
+    .how-much div.wrap p:first-child {
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 40px; }
+    .how-much div.wrap p + p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 40px; }
+  .how-much .how-much_wrapper {
+    display: inline-flex; }
+    .how-much .how-much_wrapper div button {
+      position: static; }
+    .how-much .how-much_wrapper form .left-column_form {
+      display: inline-block;
+      width: 250px; }
+      .how-much .how-much_wrapper form .left-column_form input {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        border: none;
+        margin: 30px 0;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.48);
+        color: #ffffff; }
+        .how-much .how-much_wrapper form .left-column_form input::placeholder {
+          color: #fff; }
+    .how-much .how-much_wrapper form .right-column_form {
+      display: inline-block;
+      width: 250px;
+      margin: 0 20px; }
+      .how-much .how-much_wrapper form .right-column_form input {
+        display: block;
+        width: 100%;
+        border-radius: 4px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.48);
+        margin: 30px 0;
+        padding: 5px; }
+        .how-much .how-much_wrapper form .right-column_form input::placeholder {
+          color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
